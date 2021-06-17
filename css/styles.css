@@ -1,0 +1,162 @@
+html {
+    margin: 0;
+    height: 100%;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+*, :after, :before {
+    box-sizing: border-box;
+}
+    
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    color: rgba(0, 0, 0, 0.87)
+}
+
+header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header nav {
+    display: flex;
+    align-items: center;
+}
+
+header ul {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    display: flex;
+    justify-content: space-around;
+    align-content: center;
+}
+
+nav { 
+    min-height: 3rem;
+}
+
+nav a {
+    color: rgba(0, 0, 0, 0.87);
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+.main-nav {
+    font-size: 14px;
+    padding: 1.45rem 1rem;
+}
+
+.main-nav li {
+    padding: 0 0.7rem;
+}
+
+.user-nav {
+    font-size: 13px;
+}
+
+.user-nav ul {
+    display: flex;
+    align-items: center;
+}
+
+.user-nav li {
+    padding: 0 0.5rem;
+}
+
+.user-nav .links-notext {
+    margin: 0 0.4rem;
+    padding: 0 0;
+}
+
+.links-notext:last-child {
+    padding-right: 0.8rem;
+}
+
+.avatar {
+    display: block;
+    position: relative;
+}
+
+.avatar-outline {
+    position: absolute;
+    top: -4px;
+    left: -4px;
+}
+
+.avatar img {
+    display: block;
+    border-radius: 50%;
+    max-width: 2rem;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    flex: 1;
+    justify-items: center;
+    align-items: center;
+}
+
+.logo {
+    height: 100%;
+    max-height: 16rem;
+}
+
+.search-field {
+    display: flex;
+    justify-content: space-between;
+    width: auto;
+    max-width: 736px;
+    border: 1px solid rgba(218, 220, 224, 1.00);
+    border-radius: 8rem;
+}
+
+a.apps-link {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-content: center;
+    align-items: stretch;
+    flex-wrap: wrap;
+    border-radius: 100%;
+    background-color: rgba(255, 255, 255, 1.00);
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    /* padding: 4px 6px; */
+}
+
+a.apps-link:hover {
+    background-color: rgba(240, 240, 240, 1.00);
+}
+
+.apps-icon {
+    color: rgba(95, 99, 104, 1.00);
+    opacity: 1;
+    /* position: relative; */
+    /* top: 1px; */
+}
+
+.mic-icon {
+    width: 24px;
+    height: 24px;
+    vertical-align: middle;
+}
+
+button {
+    border: none;
+    background-color: transparent;
+}
+
+input {
+    border: none;
+    background-color: transparent;
+}
